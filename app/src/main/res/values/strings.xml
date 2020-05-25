@@ -8,6 +8,7 @@
     <string name="scoreTV">Score is</string>
     <string name="scoreNote">Note ::: Rotate your phone after you incremented or decremented score to see the problem and why we need the ViewModel in real time</string>
     <string name="surviveChanges">Note ::: You can now rotate and see the magic of ViewModel. The app can now survive the configuarational and orientational changes..!</string>
+    <string name="singlesetText">Note ::: Here in this class, you can see that i used setText method only once. Whenever there is a change in field live data will update it automatically.</string>
     <string name="incrementScore">Increment Score</string>
     <string name="decrementScore">Decrement Score</string>
     <string name="resetScore">Reset Score</string>

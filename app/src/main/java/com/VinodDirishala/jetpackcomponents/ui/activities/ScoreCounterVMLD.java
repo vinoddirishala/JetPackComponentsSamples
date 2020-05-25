@@ -27,6 +27,7 @@ public class ScoreCounterVMLD extends AppCompatActivity {
         scoreCounterViewModelLiveData = ViewModelProviders.of(this).get(ScoreCounterViewModelLiveData.class);
         setContentView(R.layout.activity_score_counter_vmld);
         ButterKnife.bind(this);
+        setTitle(getResources().getString(R.string.scoreCounterVMLD));
         scoreCounterViewModelLiveData.getScore().observe(this, new Observer<Integer>() {
             @Override
             public void onChanged(Integer integer) {

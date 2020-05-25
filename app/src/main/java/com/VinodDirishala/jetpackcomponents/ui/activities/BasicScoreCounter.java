@@ -1,5 +1,6 @@
 package com.VinodDirishala.jetpackcomponents.ui.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;

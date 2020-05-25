@@ -1,5 +1,6 @@
 package com.VinodDirishala.jetpackcomponents.ui.activities;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -26,6 +27,7 @@ public class ScoreCounterVM extends AppCompatActivity {
         scoreCounterVM = ViewModelProviders.of(this).get(ScoreCounterViewModel.class);
         setContentView(R.layout.activity_score_counter_vm);
         ButterKnife.bind(this);
+        setTitle(getResources().getString(R.string.scoreCounterVM));
         scoreTV.setText(String.valueOf(scoreCounterVM.getScore()));
     }
 

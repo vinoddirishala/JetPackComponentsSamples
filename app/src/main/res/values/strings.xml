@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Sample App by VD</string>
+
+    <string name="scoreCounter">Basic Score Counter App</string>
+    <string name="scoreCounterVM">Basic Score Counter App with ViewModel</string>
+    <string name="scoreCounterVMLD">Basic Score Counter App with ViewModel and LiveData</string>
+    <string name="jetpackNavigationwithBNM">Bottom Navigation Menu with Jetpack Navigation Component</string>
+    <string name="scoreTV">Score is</string>
+    <string name="scoreNote">Note ::: Rotate your phone after you incremented or decremented score to see the problem and why we need the ViewModel in real time</string>
+    <string name="surviveChanges">Note ::: You can now rotate and see the magic of ViewModel. The app can now survive the configuarational and orientational changes..!</string>
+    <string name="incrementScore">Increment Score</string>
+    <string name="decrementScore">Decrement Score</string>
+    <string name="resetScore">Reset Score</string>
+</resources>

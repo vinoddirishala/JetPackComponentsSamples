@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C0D47A1"
+    android:padding="30dp"
+    tools:context=".ui.activities.Home">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/basicScoreCounterApp"
+            android:text="@string/scoreCounter"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"/>
+
+        <Button
+            android:id="@+id/basicScoreCounterVMApp"
+            android:layout_marginTop="10dp"
+            android:text="@string/scoreCounterVM"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"/>
+
+        <Button
+            android:id="@+id/basicScoreCounterVMLDApp"
+            android:layout_marginTop="10dp"
+            android:text="@string/scoreCounterVMLD"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"/>
+
+
+        <Button
+            android:id="@+id/bnMenuwithjpNavigation"
+            android:layout_marginTop="10dp"
+            android:text="@string/jetpackNavigationwithBNM"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
